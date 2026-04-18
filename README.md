@@ -36,3 +36,15 @@ Create your database tables in MySQL:
 # Launch the Server
 
     php artisan serve --host=0.0.0.0 --port=8000
+# Install Laravel Breeze
+Run these commands in your project directory to install the starter kit and its dependencies:
+
+    composer require laravel/breeze --dev 
+    php artisan breeze:install blade
+
+Install frontend assets and migrate the database
+
+    npm install
+    npm run dev
+    php artisan migrate
+    
