@@ -47,7 +47,18 @@ Run these commands in your project directory to install the starter kit and its 
 
 Install frontend assets and migrate the database
 
+create file
+
+/laravel_project/laravel_apps/resources/js/bootstrap.js
+
+    import axios from 'axios';
+    window.axios = axios;
+    window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+    EOF
+    
     npm install
+    npm install axios
     npm run dev
     php artisan migrate
-    
+
+    composer require nwidart/laravel-modules
