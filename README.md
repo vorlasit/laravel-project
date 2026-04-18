@@ -39,6 +39,8 @@ Create your database tables in MySQL:
 # Install Laravel Breeze
 Run these commands in your project directory to install the starter kit and its dependencies:
 
+    npm install vite@^6.0.0 laravel-vite-plugin@^1.0.0 --save-dev
+    
     composer require laravel/breeze --dev 
     php artisan breeze:install blade
 
