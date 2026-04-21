@@ -1,12 +1,7 @@
 # laravel-project
 
     sudo apt update
-    sudo apt install php-cli php-curl php-mysql php-xml php-mbstring php-zip unzip mysql-server -y
-# Install Composer
-
-    curl -sS https://getcomposer.org/installer | php
-    sudo mv composer.phar /usr/local/bin/composer
-
+    sudo apt install php php-cli php-mysql php-mbstring php-xml php-curl unzip mysql-server composer -y
 # Create the Database
 
     sudo mysql
