@@ -12,9 +12,21 @@
     FLUSH PRIVILEGES;
     EXIT;
 
-# create laravel project
+# install laravel requirement
 
-    composer create-project laravel/laravel my-project-name
+    composer global require laravel/installer
+
+# เพิ่ม PATH ให้ laravel
+
+    echo 'export PATH="$HOME/.config/composer/vendor/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+# เช็คอีกครั้ง
+
+    laravel
+# สร้าง Laravel Project
+
+    laravel new lrv_erp_module
+    
 # Install Dependencies
 Run this command to ignore the security advisories and install the framework packages:
 
